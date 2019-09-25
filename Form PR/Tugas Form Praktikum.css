@@ -1,0 +1,67 @@
+#header{
+    position: fixed;
+    width: 100%;
+    background-color: #012C3D;
+    top: 0;
+    left: 0;
+}
+.title{
+    color:#f0f0f0; 
+	font-weight:bold; 
+	text-decoration:none; 
+	font-size:30px; 
+}
+body{
+    font-family: 'segoe UI';
+    background: url('pohon.jpg');
+    background-size: 100% 100%;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+.form_login{
+    width: 350px;
+    background: #012C3D;
+    margin: 80px auto;
+	padding: 30px 20px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: 300;
+    color: white
+}
+.form{
+    box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+input[type=radio]{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.link{
+    color: white;
+}
+.tombol_kirim{
+    background: green;
+	color: white;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tombol_batal{
+    background: red;
+	color: white;
+	font-size: 12pt;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}
